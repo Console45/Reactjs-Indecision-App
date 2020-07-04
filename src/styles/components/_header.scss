@@ -1,0 +1,25 @@
+.header {
+  background-color: color(off-black);
+  margin-bottom: spacing(xl-size);
+  padding: spacing(m-size) 0;
+  color: white;
+}
+
+.header__title {
+  font-size: spacing(l-size);
+  margin: 0;
+}
+
+.header__subtitle {
+  color: color(off-white);
+  font-size: spacing(m-size);
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (max-width:spacing(desktop-breakpoint)) {
+  .header {
+    margin-bottom: spacing(m-size);
+
+  }
+}
